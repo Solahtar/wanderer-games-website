@@ -16,6 +16,7 @@
 }
 
 .block-text {
+  min-width: 300px;
   flex: 1;
 }
 
@@ -49,4 +50,8 @@ a {
 
 .block-small img {
   width: 100%;
+}
+
+video {
+  max-width: 100%;
 }
