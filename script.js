@@ -3,7 +3,8 @@ let footerHtml = null;
 
 const headerLinks = [
   { title: "Home", link: "index.html" },
-  { title: "About me", link: "about-me.html" }
+  { title: "About me", link: "about-me.html" },
+  { title: "Game jams", link: "game-jams.html" }
 ];
 
 const footerLinks = [

@@ -2,7 +2,51 @@
   width: 100%;
 }
 
-.test {
+.block {
   margin: 20px;
-  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f1edeb;
+  box-shadow: -2px 2px 5px #00000055;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.block-text {
+  flex: 1;
+}
+
+.darker {
+  background-color: #7f4898;
+  color: white;
+}
+
+.darker h1,
+a {
+  color: #ffe680;
+}
+
+.games {
+  margin: 20px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.block-small {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f1edeb;
+  box-shadow: -2px 2px 5px #00000055;
+  flex: 1;
+  min-width: 250px;
+}
+
+.block-small img {
+  width: 100%;
 }
