@@ -1,12 +1,14 @@
 #navbar {
   background-color: #e1b475;
   width: 100%;
-  position: absolute;
+  position: sticky;
   height: 60px;
   top: 0;
   left: 0;
   display: flex;
   justify-content: space-between;
+  z-index: 10;
+  box-shadow: -2px 2px 5px #00000055;
 }
 
 #left-items {
@@ -48,6 +50,7 @@
   display: flex;
   align-items: center;
   text-decoration: none;
+  font-variant-caps: small-caps;
 }
 
 .header-link:hover,
